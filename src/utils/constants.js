@@ -1,0 +1,10 @@
+import NFT_ABI from "./NFT.json";
+import NFTMarket_ABI from "./NFTMarkets.json";
+
+// export const NFT_CONTRACT_ADDRESS = "0x07b2FaF7D537071452f280AcE7313a1Eac27f375";
+export const NFT_CONTRACT_ADDRESS = "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512";
+export const NFT_CONTRACT_ABI = NFT_ABI.abi;
+
+// export const NFTMarket_CONTRACT_ADDRESS = "0xaC90a9fE0967dD4E075CDC7b00A808cAeC5E2BD8";
+export const NFTMarket_CONTRACT_ADDRESS = "0x5FbDB2315678afecb367f032d93F642f64180aa3";
+export const NFTMarket_CONTRACT_ABI = NFTMarket_ABI.abi;
